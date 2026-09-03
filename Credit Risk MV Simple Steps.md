@@ -24,20 +24,17 @@ Step 5: Assess testing done by Model Owner
   - Outcome Analysis Assessment:
     Actual default vs. Predicted Default model, LRDR assessment 
   - Benchmarking:
-    External source: average PDs on comparable business  
-    Assess alternative modelling approach, eg. one exponential function vs. two exponential functions PD
+    a. External source: average PDs on comparable business  
+    b. Assess alternative modelling approach, eg. one exponential function vs. two exponential functions PD
     
 Step 6: Replication from Model Validation and Testing
-  - IF the Sensitivity Testing and Stress Testing were not conducted, consider conducting these tests with a risk-based approach 
-  - In-Sample testing and Out-of-Sample testing (backtesting)
-  - Outcome analysis on any differences. Following ones may apply:
+  - Replication: cohort population, LRDR, MoC, Regrade Matrix, PD curve, model performance
+  - Testing:
+    a. IF the Sensitivity Testing and Stress Testing were not conducted, consider conducting these tests with a risk-based approach 
+    b. In-Sample testing and Out-of-Sample testing (backtesting)
+    c. Outcome analysis on any differences. The following may apply:
+    	HHI to measure rating concentration of the selected variables
+   		Monte-Carol simulation to provide upper and lower bounds on proposed PDs
+    	Recent period calibration test
     
-    HHI to measure concentration of the selected variables
-    ANOVA or Kruskal-Wallis test on 
-    Monte-Carol simulation
-    MSE
-    
-Step 7: Performance monitoring: with threshold set, and analysis and explanation of breaches
-  - Realized Default Rate
-  - AUC: 
-  - PSI
+Step 7: Performance monitoring: with threshold set, and analysis and explanation of breaches, inlcuding Realized Default Rate, AUC, and PSI
